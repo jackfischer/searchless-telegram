@@ -1,0 +1,17 @@
+{
+    "name": "Searchless Telegram",
+    "description": "Remove the search option from Telegram's web client",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://web.telegram.org/*"
+            ],
+            "css": [
+                "noSearch.css"
+            ],
+            "js": []
+        }
+    ]
+}
